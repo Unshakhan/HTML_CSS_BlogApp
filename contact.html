@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Daily Journal</title>
+  <meta name="description" content="Contact The Daily Journal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER: identical on all pages (only the "active" class moves) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">The Daily Journal</a>
+      <nav aria-label="Main navigation">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <label for="nav-toggle" class="nav-button" aria-hidden="true"><span></span></label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Get in touch</h1>
+        <p>Have a question, an idea or just want to say hello? Fill in the form and I will be happy to read it.</p>
+      </div>
+    </section>
+    <section class="container contact-layout">
+      <!-- Demo form: no server, so nothing is actually sent. HTML attributes handle validation. -->
+      <form class="contact-form" action="#" method="get">
+        <div class="field"><label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required></div>
+        <div class="field"><label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required></div>
+        <div class="field"><label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What is this about?" required></div>
+        <div class="field"><label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here" required></textarea></div>
+        <button type="submit" class="btn">Send Message</button>
+        <p class="form-note">This is a front-end demo. Sending real messages needs a backend or a form service.</p>
+      </form>
+      <aside class="contact-info" aria-label="Contact details">
+        <div><h3>Email</h3><a href="mailto:arishfaa8@gmail.com">arishfaa8@gmail.com</a></div>
+        <div><h3>Location</h3><p>Karachi, Pakistan</p></div>
+        <div><h3>Social</h3>
+          <ul class="social-list">
+            <li><a href="#">Instagram</a></li><li><a href="#">Pinterest</a></li><li><a href="#">Twitter / X</a></li>
+            <li><a href="https://www.linkedin.com/in/unsha-sattar-b544b8365/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul></div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- FOOTER: identical on all pages -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-about">
+          <a href="index.html" class="logo">The Daily Journal</a>
+          <p>A personal journal about slow living, everyday inspiration and creative habits.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Follow</h3>
+          <!-- Placeholder social links: replace # with your real profiles -->
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="https://www.linkedin.com/in/unsha-sattar-b544b8365/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 The Daily Journal. All Rights Reserved. Created by Unsha Sattar.</p>
+    </div>
+  </footer>
+</body>
+</html>

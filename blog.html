@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | The Daily Journal</title>
+  <meta name="description" content="Read the latest articles from The Daily Journal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER: identical on all pages (only the "active" class moves) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">The Daily Journal</a>
+      <nav aria-label="Main navigation">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <label for="nav-toggle" class="nav-button" aria-hidden="true"><span></span></label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html" class="active" aria-current="page">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>The Blog</h1>
+        <p>Stories, ideas and small experiments from the journal. Pick a post and settle in.</p>
+      </div>
+    </section>
+    <section class="section" style="padding-top:32px">
+      <div class="container">
+        <div class="cards blog-grid">
+        <article class="card" id="post-1">
+          <img src="images/blog-post-1.jpg" alt="A still lake at sunrise with soft hills in the distance" width="1600" height="1000">
+          <div class="card-body">
+            <p class="card-date">12 October 2026</p><h3>The Art of Slow Living</h3>
+            <p>Why doing less, and noticing more, might be the most creative decision you make this year.</p>
+            <a class="read-more" href="#post-1">Read More</a>
+          </div>
+        </article>
+        <article class="card" id="post-2">
+          <img src="images/blog-post-2.jpg" alt="City skyline at sunset with glowing windows" width="1600" height="1000">
+          <div class="card-body">
+            <p class="card-date">5 October 2026</p><h3>Finding Inspiration in Everyday Life</h3>
+            <p>A walk, a window, a stranger's laugh: small moments are full of ideas if you slow down to see them.</p>
+            <a class="read-more" href="#post-2">Read More</a>
+          </div>
+        </article>
+        <article class="card" id="post-3">
+          <img src="images/blog-post-3.jpg" alt="A cup of coffee on a table in warm morning light" width="1600" height="1000">
+          <div class="card-body">
+            <p class="card-date">28 September 2026</p><h3>Simple Ways to Create a Better Morning Routine</h3>
+            <p>Five gentle habits that make mornings calmer, from the first glass of water to a quiet page of writing.</p>
+            <a class="read-more" href="#post-3">Read More</a>
+          </div>
+        </article>
+        <article class="card" id="post-4">
+          <img src="images/blog-post-4.jpg" alt="Close-up of a camera lens with blue reflections" width="1600" height="1000">
+          <div class="card-body">
+            <p class="card-date">20 September 2026</p><h3>Exploring Creativity Through Photography</h3>
+            <p>You do not need expensive gear. Learn to see light, shape and story with the camera you already own.</p>
+            <a class="read-more" href="#post-4">Read More</a>
+          </div>
+        </article>
+        </div>
+        <p class="note">Note: this project has three pages only, so "Read More" links jump back to the post's card. Full article pages can be added later.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: identical on all pages -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-about">
+          <a href="index.html" class="logo">The Daily Journal</a>
+          <p>A personal journal about slow living, everyday inspiration and creative habits.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Follow</h3>
+          <!-- Placeholder social links: replace # with your real profiles -->
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="https://www.linkedin.com/in/unsha-sattar-b544b8365/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 The Daily Journal. All Rights Reserved. Created by Unsha Sattar.</p>
+    </div>
+  </footer>
+</body>
+</html>
